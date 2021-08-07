@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubantu/c/2021-08-01/BinaryTree.h
+stdlib.h
+-
+
+/home/ubantu/c/2021-08-01/ChainTable.h
+stdlib.h
+-
+
+/home/ubantu/c/2021-08-01/Sort.h
+
+/home/ubantu/c/2021-08-01/main.c
+stdio.h
+-
+stdlib.h
+-
+ChainTable.h
+/home/ubantu/c/2021-08-01/ChainTable.h
+BinaryTree.h
+/home/ubantu/c/2021-08-01/BinaryTree.h
+Sort.h
+/home/ubantu/c/2021-08-01/Sort.h
+
